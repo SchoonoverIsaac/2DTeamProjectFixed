@@ -17208,17 +17208,21 @@ PrefabInstance:
       propertyPath: text
       value: 
       objectReference: {fileID: 790188439}
+    - target: {fileID: 3543324742435730154, guid: 9ba899b526089e640b2e425f5672a785, type: 3}
+      propertyPath: ShootSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 43b07e2559edd4b4aaa03f3fecbaa971, type: 3}
     - target: {fileID: 4745813304772492292, guid: 9ba899b526089e640b2e425f5672a785, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5640785619420511574, guid: 9ba899b526089e640b2e425f5672a785, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.64
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640785619420511574, guid: 9ba899b526089e640b2e425f5672a785, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.14268838
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5640785619420511574, guid: 9ba899b526089e640b2e425f5672a785, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17256,6 +17260,10 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1846231393}
+    - target: {fileID: 7802252410541243798, guid: 9ba899b526089e640b2e425f5672a785, type: 3}
+      propertyPath: DamageSound
+      value: 
+      objectReference: {fileID: 8300000, guid: a55529a11cb21ec45bbfccba9a6d70d7, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
