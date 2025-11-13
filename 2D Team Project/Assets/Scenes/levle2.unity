@@ -56732,10 +56732,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -56756,11 +56752,5 @@ SceneRoots:
   - {fileID: 864568284}
   - {fileID: 619389774}
   - {fileID: 1661877299}
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
   - {fileID: 2061731859}
   - {fileID: 407057516}
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
