@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -15,10 +16,11 @@ public class playerhealth : MonoBehaviour
     public Image healthBar;
     //if we collide with  something tagged as Enemy, take damage
     //if health gets too low, we die (reload the level)
+    public bool IsDead = true;
     private void OnCollisionEnter2D(Collision2D collision)
 
     {
-        if(collision.gameObject.tag=="Enemy")
+        if (collision.gameObject.tag == "Enemy")
         {
             if (audioSource != null && DamageSound != null)
             {
@@ -28,7 +30,7 @@ public class playerhealth : MonoBehaviour
             health--;
             healthBar.fillAmount = health / maxHealth;
             //if health gets too low, we die (reload the level)
-            if(health<=0)
+            if (health <= 0)
             {
                 //reload the level
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
@@ -51,7 +53,7 @@ public class playerhealth : MonoBehaviour
             if (health <= 0)
             {
                 //reload the level
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         }
     }
@@ -61,10 +63,30 @@ public class playerhealth : MonoBehaviour
         maxHealth = health;
         audioSource = Camera.main.GetComponent<AudioSource>();
     }
-
+    float deathTimer = 0;
     // Update is called once per frame
     void Update()
     {
-        
+        if (health <= 0)
+        {
+            Animator animator = GetComponent<Animator>();
+            if (animator != null)
+            {
+                animator.SetBool("isDead", true);
+            }
+            //if we should die, we first want to play the death animation for a second
+            deathTimer += Time.deltaTime;
+            //note the length of your death animation may vary. default value here is 1 second.
+            //NOTE: we moved the destroy code from below to here. if you don't remove it down below,
+            //your death  animation will not play
+            if (deathTimer > 3)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+
+
+
+
+        }
     }
-} 
+}
