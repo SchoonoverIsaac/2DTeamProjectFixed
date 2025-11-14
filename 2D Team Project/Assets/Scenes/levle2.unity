@@ -56610,8 +56610,6 @@ Transform:
   - {fileID: 2068716386}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 --- !u!1 &2068716385
 GameObject:
   m_ObjectHideFlags: 0
