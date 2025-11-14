@@ -54700,6 +54700,10 @@ PrefabInstance:
       propertyPath: text
       value: 
       objectReference: {fileID: 1680926311}
+    - target: {fileID: 3543324742435730154, guid: 9ba899b526089e640b2e425f5672a785, type: 3}
+      propertyPath: ShootSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 43b07e2559edd4b4aaa03f3fecbaa971, type: 3}
     - target: {fileID: 4745813304772492292, guid: 9ba899b526089e640b2e425f5672a785, type: 3}
       propertyPath: m_Name
       value: Player
@@ -54756,6 +54760,10 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 855711973}
+    - target: {fileID: 7802252410541243798, guid: 9ba899b526089e640b2e425f5672a785, type: 3}
+      propertyPath: DamageSound
+      value: 
+      objectReference: {fileID: 8300000, guid: a55529a11cb21ec45bbfccba9a6d70d7, type: 3}
     m_RemovedComponents:
     - {fileID: 6351094731497011928, guid: 9ba899b526089e640b2e425f5672a785, type: 3}
     m_RemovedGameObjects: []
@@ -56610,8 +56618,6 @@ Transform:
   - {fileID: 2068716386}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 --- !u!1 &2068716385
 GameObject:
   m_ObjectHideFlags: 0
@@ -56732,10 +56738,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -56756,11 +56758,5 @@ SceneRoots:
   - {fileID: 864568284}
   - {fileID: 619389774}
   - {fileID: 1661877299}
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
   - {fileID: 2061731859}
   - {fileID: 407057516}
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
