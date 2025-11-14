@@ -54700,6 +54700,10 @@ PrefabInstance:
       propertyPath: text
       value: 
       objectReference: {fileID: 1680926311}
+    - target: {fileID: 3543324742435730154, guid: 9ba899b526089e640b2e425f5672a785, type: 3}
+      propertyPath: ShootSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 43b07e2559edd4b4aaa03f3fecbaa971, type: 3}
     - target: {fileID: 4745813304772492292, guid: 9ba899b526089e640b2e425f5672a785, type: 3}
       propertyPath: m_Name
       value: Player
@@ -54756,6 +54760,10 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 855711973}
+    - target: {fileID: 7802252410541243798, guid: 9ba899b526089e640b2e425f5672a785, type: 3}
+      propertyPath: DamageSound
+      value: 
+      objectReference: {fileID: 8300000, guid: a55529a11cb21ec45bbfccba9a6d70d7, type: 3}
     m_RemovedComponents:
     - {fileID: 6351094731497011928, guid: 9ba899b526089e640b2e425f5672a785, type: 3}
     m_RemovedGameObjects: []
