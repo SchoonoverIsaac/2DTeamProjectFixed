@@ -16,7 +16,7 @@ public class EnemyHealth : MonoBehaviour
     }
 
     // Update is called once per frame
-    float deathTimer = 0;
+   public float deathTimer = 0;
     void Update()
     {
         //destroy myself if i get too low in health
