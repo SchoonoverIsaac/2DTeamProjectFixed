@@ -292,7 +292,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 7}
+  m_AnchoredPosition: {x: 0, y: -4}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5356057}
 --- !u!114 &118382308
@@ -844,7 +844,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f47e3c3b9368444bbb84b21bc2bd92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToLoad: Test Scene
+  levelToLoad: levle1
   UISound: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
