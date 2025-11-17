@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6949620937855792927}
   - component: {fileID: 239984846181310956}
   - component: {fileID: 4937120985329762528}
+  - component: {fileID: 2721888237032555620}
   m_Layer: 0
   m_Name: Walker
   m_TagString: Enemy
@@ -223,3 +224,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0f668eabfc26264dbd5bd6a1925d9a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2721888237032555620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8138557782454002782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d38aba4c5d0c6f6438f145511fb94fdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  dropChance: 100
+  prefab: {fileID: 0}
+  isDead: 1
+  deathTimer: 0
