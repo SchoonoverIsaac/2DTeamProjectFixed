@@ -184,7 +184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chasespeed: 5
-  chaseTriggerDistance: 10
+  chaseTriggerDistance: 15
   returnhome: 1
   patrol: 1
   patrolDirection: {x: 0, y: 0, z: 0}
@@ -217,6 +217,7 @@ MonoBehaviour:
   dropChance: 100
   prefab: {fileID: 0}
   isDead: 1
+  deathTimer: 0
 --- !u!114 &612153263649582981
 MonoBehaviour:
   m_ObjectHideFlags: 0
